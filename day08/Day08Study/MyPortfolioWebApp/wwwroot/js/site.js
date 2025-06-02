@@ -182,4 +182,8 @@
         });
 
     });
+
+    // trumbowyg 에디터 활성화
+    $('.editor').trumbowyg();
 })();
+

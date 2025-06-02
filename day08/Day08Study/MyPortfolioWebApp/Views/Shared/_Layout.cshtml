@@ -13,11 +13,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/lib/bootstrap-icon/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="~/trumbowyg/ui/trumbowyg.min.css" />
     <link rel="stylesheet" href="~/vendor/aos/aos.css" />
     <link rel="stylesheet" href="~/vendor/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="~/vendor/glightbox/css/glightbox.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
     @* <link rel="stylesheet" href="~/MyPortfolioWebApp.styles.css" asp-append-version="true" /> *@
+    <!-- Toastr CSS 추가 -->
+
 </head>
 <body>
     <header id="header" class="header d-flex align-items-center light-background sticky-top">
@@ -26,7 +30,7 @@
             <a asp-controller="Home" asp-action="Index" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1 class="sitename">Hugo</h1>
+                <h1 class="sitename">Ryu</h1>
             </a>
 
             <nav id="navmenu" class="navmenu">
@@ -97,6 +101,10 @@
     <!-- Vendor JS Files -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- HTML 에디터 -->
+    <script src="~/trumbowyg/trumbowyg.min.js"></script>
+    <!-- HTML 뷰어 -->
+    <script src="~/dompurify/purify.min.js"></script>
     <script src="~/vendor/aos/aos.js"></script>
     <script src="~/vendor/waypoints/noframework.waypoints.js"></script>
     <script src="~/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -107,5 +115,8 @@
 
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
 </body>
 </html>
