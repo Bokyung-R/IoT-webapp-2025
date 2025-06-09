@@ -55,7 +55,7 @@ namespace MyPortfolioWebApp.Controllers
                     var smtpClient = new SmtpClient("smtp.mail.nate.com") // Gmail을 사용하면 
                     {
                         Port = 465, // 메일 SMPT 서비스포트 변경필요
-                        Credentials = new NetworkCredential("dbqhrud5789@gmail.com", "비밀번호"),
+                        Credentials = new NetworkCredential("personar95@gmail.com", "비밀번호"),
                         EnableSsl = true,
                     };
 
@@ -67,7 +67,7 @@ namespace MyPortfolioWebApp.Controllers
                         IsBodyHtml = false,  // 메일 본문에 HTML태그를 사용여부
                     };
 
-                    mailMessage.To.Add("dbqhrud5789@naver.com");  // 받을 메일주소
+                    mailMessage.To.Add("personar95@naver.com");  // 받을 메일주소
 
                     await smtpClient.SendMailAsync(mailMessage); // 위 생성된 메일객체를 전송!
                     ViewBag.Success = true;

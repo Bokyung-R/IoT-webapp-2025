@@ -52,9 +52,10 @@ namespace MyPortfolioWebApp.Controllers
             ViewBag.Search = search; // 검색어
 
             // 저장프로시저 호출
-            //var board = await _context.Board.FromSql($"CALL New_PagingBoard({startCount}, {endCount}, {search})").ToListAsync();
-            //return View(board);
-            return View(await _context.Board.ToListAsync());
+            var board = await _context.Board.FromSql($"CALL Board_PagingBoard({startCount}, {endCount}, {search})").ToListAsync();
+            return View(board);
+
+
         }
 
         // GET: Board/Details/5
