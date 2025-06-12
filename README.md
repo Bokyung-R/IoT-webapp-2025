@@ -1073,10 +1073,24 @@ https://github.com/user-attachments/assets/006deadd-f7f1-4ba8-961c-0e0905be5fb2
     - 프론트엔드는 CORS 설정 필요없음
 
 
+    <img src="./image/web0033.png" width="400">
 
+## 14일차
 
+### ASP.NET Core API서버(계속)
 
+#### WebAPI 서버 + 웹사이트(계속)
+- 할일 삭제
 
+### AWS 클라우드 업로드
+- AWS 라이트세일로 웹사이트 업로드
+
+### 부가적인 기능
+- OAuth (구글로그인)
+- 파일업로드
+- WebAPI 서버 + 웹사이트 할일 수정
+
+### MyPortfolio 완성
 
 
 
