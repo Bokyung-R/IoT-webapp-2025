@@ -1269,11 +1269,11 @@ https://github.com/user-attachments/assets/006deadd-f7f1-4ba8-961c-0e0905be5fb2
 ### 코딩테스트 (대체 포트폴리오 자유게시판 완성)
 
 #### 자유게시판 이미지
-- 기본 화면
+기본 화면
     <img src="./image/coding0001.png" width="650">
-- 게시물 선택시 화면 
+게시물 선택시 화면 
     <img src="./image/coding0002.png" width="650">
-- 검색 결과 화면
+검색 결과 화면
     <img src="./image/coding0003.png" width="650">
 
 #### 제작
