@@ -1272,9 +1272,9 @@ https://github.com/user-attachments/assets/006deadd-f7f1-4ba8-961c-0e0905be5fb2
 - 기본 화면
     <img src="./image/coding0001.png" width="650">
 - 게시물 선택시 화면 
-<img src="./image/coding0002.png" width="650">
+    <img src="./image/coding0002.png" width="650">
 - 검색 결과 화면
-<img src="./image/coding0003.png" width="650">
+    <img src="./image/coding0003.png" width="650">
 
 #### 제작
 - 디자인 : 공지(News)와 같은 디자인으로 수정
