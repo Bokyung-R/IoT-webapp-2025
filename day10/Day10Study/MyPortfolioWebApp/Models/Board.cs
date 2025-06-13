@@ -4,22 +4,21 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MyPortfolioWebApp.Models;
 
-public partial class Board
+public class Board
 {
     [Key]
     public int Id { get; set; }
 
     [Required]
-    public string Email { get; set; } = null!;
+    public string Email { get; set; }
 
     public string? Writer { get; set; }
 
     [Required]
-    public string Title { get; set; } = null!;
+    public string Title { get; set; }
 
-    [Required]  
-    public string Contents { get; set; } = null!;
-
+    [Required]
+    public string Contents { get; set; }
 
     public DateTime? PostDate { get; set; }
 

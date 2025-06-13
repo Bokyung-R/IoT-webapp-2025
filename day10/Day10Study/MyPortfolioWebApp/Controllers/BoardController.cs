@@ -21,7 +21,7 @@ namespace MyPortfolioWebApp.Controllers
         // GET: Board
         public async Task<IActionResult> Index()
         {
-
+            
             return View(await _context.Board.ToListAsync());
         }
 

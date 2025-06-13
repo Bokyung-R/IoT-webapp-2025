@@ -1426,15 +1426,16 @@ section,
     border-style: none;
 }
 
-/* 로그아웃 버튼 스타일 변경 */
-.link-kelly{
-    background : none;
-    border : none;
-    padding : 0;
-    margin : 0;
+/* 로그아웃 버튼 스타일변경 */
+.link-kelly {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
     .link-kelly i:hover {
-        color : #34B5A5;
-    }    
-}
+        color: #34B5A5;
+    }
+
+
